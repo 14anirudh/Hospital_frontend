@@ -34,6 +34,9 @@
   margin: 5px;
   padding: 13px;
 }
+.navbar-li:hover{
+  border-bottom: 2px solid #0cb4af;
+}
 .navbar-logo {
   width: 60px;
   margin-left: 80px;
@@ -44,10 +47,13 @@
   height: 43px;
   background: #0cb4af;
   color: rgb(245, 245, 245);
-  font-weight: 600;
+  
   border-radius: 5px;
   cursor: pointer;
   border: none;
+}
+.navbar-btn:hover{
+ font-weight: 600;
 }
 .appointment-btn {
   margin: 10px 0px;
@@ -56,7 +62,7 @@
   background: #0cb4af;
   color: rgb(245, 245, 245);
   font-size: 18px;
-  font-weight: 600;
+ 
   border-radius: 5px;
   border: none;
   position: relative;
@@ -64,6 +70,9 @@
   left: 80px;
   text-align: center;
   cursor: pointer;
+}
+.appointment-btn:hover{
+  font-weight: 600;
 }
 .appointment-statement {
   position: relative;
