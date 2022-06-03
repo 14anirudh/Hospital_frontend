@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.h {
+  margin: 30px;
+  color: white;
+}
+.p-main::before {
+  content: "";
+  background: url(./p-bg.png) no-repeat center center/cover;
+  position: absolute;
+  height: 140vh;
+  width: 100vw;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+.patient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.p-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+
+  margin: 8px;
+ 
+  
+}
+.p-logo{
+  width: 60px;
+}
+.statement{
+  background-color: aliceblue;
+  margin: 8px;
+  border-radius: 8px;
+}
+.statement p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}

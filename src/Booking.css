@@ -1,0 +1,75 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.field {
+  width: 280px;
+  height: 43px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #0cb4af;
+}
+.booking-logo{
+    width: 60px;
+  
+}
+.information {
+  text-align: center;
+  margin: 30px 0px;
+}
+.information::before {
+  content: "";
+  background: url(./appoint.png) no-repeat center center/cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+.functionality {
+ 
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.btn {
+  margin: 10px;
+  width: 280px;
+  height: 43px;
+  background: #0cb4af;
+  color: rgb(245, 245, 245);
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  height: 100px;
+}
+.services-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-top: 8px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 8px;
+  margin: 5px;
+  width: 200px;
+  background-color: white;
+}
+.icons-p {
+  margin: 4px 0px 8px 0px;
+  color: #043C76;
+}

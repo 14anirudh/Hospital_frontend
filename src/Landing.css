@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-parent::before {
+  content: "";
+  background: url(./landing.png) no-repeat center center/cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+.navbar-ul {
+  display: flex;
+  margin: 5px;
+  list-style: none;
+  font-size: 1.08rem;
+  font-weight: 600;
+  padding: 5px;
+  margin-right: 20px;
+}
+.navbar-li {
+  margin: 5px;
+  padding: 13px;
+}
+.navbar-logo {
+  width: 60px;
+  margin-left: 80px;
+}
+.navbar-btn {
+  margin: 10px 0px;
+  width: 118px;
+  height: 43px;
+  background: #0cb4af;
+  color: rgb(245, 245, 245);
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.appointment-btn {
+  margin: 10px 0px;
+  width: 220px;
+  height: 43px;
+  background: #0cb4af;
+  color: rgb(245, 245, 245);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  top: 100px;
+  left: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+.appointment-statement {
+  position: relative;
+  top: 80px;
+  left: 80px;
+  font-size: 4.5rem;
+  font-weight: 800;
+  width: 300px;
+}
+@media (max-width: 1300px) {
+  .navbar-ul {
+    font-size: 15px;
+  }
+  .navbar-li {
+    padding: 16px 5px;
+  }
+  .appointment-btn {
+    position: relative;
+    left: 60px;
+  }
+  .appointment-statement {
+    position: relative;
+    left: 60px;
+    font-size: 3.5rem;
+  }
+  .navbar-logo {
+    width: 60px;
+    margin-left: 60px;
+  }
+}
