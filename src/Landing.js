@@ -26,7 +26,7 @@ function Landing() {
           </Link>
         </ul>
         <div className="hamburger" onClick={()=>setOpen(!open)}>
-          <Hamburger/>
+          <Hamburger size={20}/>
         </div>
        
       </div>
