@@ -1,0 +1,37 @@
+.hamburger-ul {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  float: right;
+  position: relative;
+  top: 20px;
+}
+.side {
+  position: relative;
+  float: right;
+  top: 20px;
+  width: 20vw;
+  height: 83.5vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+.hamburger-li {
+  list-style: none;
+  margin: 7px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.hamburger-btn {
+  width: 70px;
+  cursor: pointer;
+  margin: 10px;
+  width: 15vw;
+  height: 40px;
+  background: #0cb4af;
+  color: rgb(245, 245, 245);
+  font-size: 0.8rem;
+  border-radius: 5px;
+ 
+  border: none;
+}

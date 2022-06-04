@@ -6,6 +6,7 @@ import Booking from "./Booking";
 import Patient from "./Patient";
 import History from "./History";
 
+
 function App() {
   return (
     <div>

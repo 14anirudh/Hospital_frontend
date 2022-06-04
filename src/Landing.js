@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "./logo.png";
 import "./Landing.css";
+import Sidebar from "./Sidebar";
+
+import { Divide as Hamburger } from "hamburger-react";
 
 function Landing() {
+  const [open, setOpen] = useState(false);
+ 
   return (
     <div className="navbar-parent">
       <div className="navbar">
@@ -20,12 +25,16 @@ function Landing() {
             <button className="navbar-btn">SignIn as Doctor</button>
           </Link>
         </ul>
+        <div className="hamburger" onClick={()=>setOpen(!open)}>
+          <Hamburger/>
+        </div>
+       
       </div>
+     {open && <Sidebar />} 
       <p className="appointment-statement">Tell Us Your Problem</p>
       <Link to="/booking">
-      <button className="appointment-btn">Make an Appointment </button>
-          </Link>
-      
+        <button className="appointment-btn">Make an Appointment </button>
+      </Link>
     </div>
   );
 }

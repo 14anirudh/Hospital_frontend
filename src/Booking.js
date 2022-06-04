@@ -20,7 +20,7 @@ function Booking() {
         <input
           type="text"
           className="field"
-          placeholder="search for a doctor or speciality"
+          placeholder="search for a doctor"
         />
         <input type="text" className="field" placeholder="location" />
         <button className="btn">Book an Appointment</button>

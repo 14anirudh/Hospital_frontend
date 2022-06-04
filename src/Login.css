@@ -14,7 +14,7 @@ box-sizing: border-box;
   content: "";
   background: url(./landbg.png) no-repeat center center/cover;
   position: absolute;
-  height: 645px;
+  height: 100%;
   width: 100%;
   z-index: -1;
   top: 0px;

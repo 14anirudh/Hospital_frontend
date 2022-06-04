@@ -82,24 +82,29 @@
   font-weight: 800;
   width: 300px;
 }
+.hamburger{
+  display: none;
+}
 @media (max-width: 1300px) {
-  .navbar-ul {
-    font-size: 15px;
+   .navbar-ul {
+    display: none;
   }
-  .navbar-li {
-    padding: 16px 5px;
+  .hamburger{
+    display: flex;
+    margin-right: 5px;
   }
+   
   .appointment-btn {
     position: relative;
-    left: 60px;
+    left: 30px;
   }
   .appointment-statement {
     position: relative;
-    left: 60px;
+    left: 30px;
     font-size: 3.5rem;
   }
   .navbar-logo {
     width: 60px;
-    margin-left: 60px;
+    margin-left: 30px;
   }
 }
